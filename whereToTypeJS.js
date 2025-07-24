@@ -1,0 +1,1 @@
+document.getElementById("element1").innerHTML = "this text from script file " ;

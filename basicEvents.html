@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Learn the basic events on JS " change things!! "</h1>
+
+    <h3> CHANGE THE CONTENT </h3>
+    <h2 id="changeText"> Hi </h2>
+
+    <!-- 
+    document -> the HTML page 
+    .getElementById -> target the element that holds this ID 
+    .innerHTML targets the content of the element -->
+    <button onclick="document.getElementById('changeText').innerHTML=  'Bye' ">click to change</button>
+    
+    <div class="switch">
+        <h3> CHANGE THE ATTRIBUTE </h3>
+        <img src="SRC/pngwing.com (2).png" id="changeImg" width="15%">
+
+        <!-- document.getElementById('ID').ATTRIBUTE  -->
+        <button onclick="document.getElementById('changeImg').src='./SRC/pngwing.com (2).png'">GON</button>
+        <button onclick="document.getElementById('changeImg').src='./SRC/pngwing.com (3).png'">KILLUA</button>
+
+    </div>
+    
+    <div class="hide">
+        <!-- document.getElementById('ID').STYLE ATTRIBUTE.PROPERTY -->
+        <h3 id="hide">HIDE MEEEEEEEEEEEEEEEEEEEEEEEE</h3>
+        <button onclick="document.getElementById('hide').style.display = 'none'">Hide</button>
+        <button onclick="document.getElementById('hide').style.display = 'block'">show</button>
+            
+    </div>
+
+
+
+
+
+
+</body>
+</html>
